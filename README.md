@@ -58,6 +58,7 @@
 
 **TODO List:**
 >* 更換資料庫 H2 (現階段只用 h2)。
+>* 調整冪等機制，考慮擴充冪等表，目前僅透過 StockCode (該股票的代碼) 和 TradeDate (交易日期) 來執行
 >* 將容器 (nifi、kafka、DB) 集中在同一個 docker-compose 。
 >* 擴充前端頁面 (含 WebSocket 機制)。
 >* 考慮建置 Ollama 建置 AI 助理。
