@@ -2,7 +2,8 @@
 
 這是一個基於 事件驅動架構 (Event-Driven Architecture) 打造的台股行情接入系統。
 
-系統從台灣證券交易所 (TWSE) 抓取即時資料 (https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL)，經過分散式中介軟體處理後，最終以 **領域驅動設計 (DDD)** 的規範進入後端微服務。
+系統從台灣證券交易所 (TWSE) 抓取即時資料 (https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL) ，
+經過分散式中介軟體處理後，最終以 **領域驅動設計 (DDD)** 的規範進入後端微服務。
 
 ## 系統架構圖
 
