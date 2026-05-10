@@ -50,8 +50,9 @@
   | JSON 反序列化衝突 | 針對外部 API 傳回的 Array 格式，開發 JsonParseUtil 結合 Jackson 的 TypeReference 進行安全解析。 |
   | 未預期欄位報錯 | 實施防禦性設計，配置全域 FAIL_ON_UNKNOWN_PROPERTIES 為 false，提升系統對外部 API 異動的容錯率。 |
 
-## 快速啟動
+## 待擴充 「監控/AI 助理」 
 
-執行以下指令啟動 Nifi 及 Kafka 容器:
+目前僅 **完成持續去同步 台股台積電股票資料。**
 
-  docker-compose up -d
+看哪天心血來潮再來實作 ~
+
