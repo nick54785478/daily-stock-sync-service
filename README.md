@@ -56,3 +56,11 @@
 
 看哪天心血來潮再來實作 ~
 
+TODO List:
+
+>* 更換資料庫 H2 (現階段只用 h2)。
+>* 將容器 (nifi、kafka、DB) 集中在同一個 docker-compose 。
+>* 擴充前端頁面 (含 WebSocket 機制)。
+>* 考慮建置 Ollama 建置 AI 助理。
+
+
